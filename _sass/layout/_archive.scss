@@ -244,12 +244,33 @@
   }
 }
 
-/* Publication titles: smaller, and no underline on hover */
+/* Publications page */
 .page__content .archive__item-title.pub-title {
-  font-size: $type-size-5;
-  margin-top: 1.25em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 1.1em;
+  margin-bottom: 0.15em;
 }
 
 .archive__item:hover .archive__item-title.pub-title {
   text-decoration: none;
+}
+
+.page__content .pub-venue {
+  font-size: 0.85rem;
+  margin: 0 0 0.25em;
+}
+
+.page__content h2.pub-category {
+  font-size: 1.2rem;
+  margin: 2em 0 0.3em;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.page__content hr.pub-divider {
+  margin: 0 0 0.5em;
+  border-top: 2px solid var(--global-text-color);
+  opacity: 0.6;
 }
