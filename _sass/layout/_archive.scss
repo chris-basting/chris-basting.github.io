@@ -243,3 +243,13 @@
     }
   }
 }
+
+/* Publication titles: smaller, and no underline on hover */
+.page__content .archive__item-title.pub-title {
+  font-size: $type-size-5;
+  margin-top: 1.25em;
+}
+
+.archive__item:hover .archive__item-title.pub-title {
+  text-decoration: none;
+}
